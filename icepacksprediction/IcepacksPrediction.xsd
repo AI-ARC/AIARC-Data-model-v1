@@ -15,7 +15,7 @@
 					<xs:element name="IceThicknessConfidence" type="xs:double"  minOccurs="0" />
 					<xs:element name="IceClass" type="location:IceClassType"  minOccurs="0" />
 					<xs:element name="OccurenceConfidence" type="xs:double"  minOccurs="0" />
-					<xs:element name="DateTime" type="xs:dateTime" minOccurs="0" />
+					<xs:element name="PredictionTime" type="xs:dateTime" minOccurs="0" />
 				</xs:sequence>
 		</xs:complexContent>
 	</xs:complexType>
