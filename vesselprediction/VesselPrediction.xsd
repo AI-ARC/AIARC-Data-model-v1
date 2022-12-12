@@ -11,6 +11,7 @@
     <xs:sequence>
      <xs:element name="PredictionAccuracy" type="xs:double" minOccurs="0"/>
      <xs:element name="ExplanationMessage" type="xs:string" minOccurs="0"/>
+     <xs:element name="PredictionTime" type="xs:dateTime" minOccurs="0" />
     </xs:sequence>
   </xs:complexContent>
  </xs:complexType>
