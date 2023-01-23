@@ -13,9 +13,11 @@
      <xs:element name="S_train" type="xs:double" minOccurs="0"/> <!--Metric value for the reliability score. e.g. 0.63-->
      <xs:element name="S_distance" type="xs:double" minOccurs="0"/> <!--Metric value for the reliability score. e.g. 0.73-->
      <xs:element name="S_xAI" type="xs:double" minOccurs="0"/> <!--Metric value for the reliability score. e.g. 0.93-->
+     <xs:element name="Other" type="xs:base64Binary" minOccurs="0"/> <!--Other metric value. e.g. image layer or just a table of attributes and numbers-->
      <xs:element name="s_trainDescription" type="xs:string" minOccurs="0"/> <!--Explanation of metric-->
      <xs:element name="s_distanceDescription" type="xs:string" minOccurs="0"/> <!--Explanation of metric-->
      <xs:element name="s_xAIDescription" type="xs:string" minOccurs="0"/> <!--Explanation of metric-->
+     <xs:element name="OtherDescription" type="xs:string" minOccurs="0"/> <!--Explanation of metric-->
     </xs:sequence>
   </xs:complexContent>
  </xs:complexType>
