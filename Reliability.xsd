@@ -4,8 +4,8 @@
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
 			elementFormDefault="qualified"
-			xmlns:rel="https://raw.githubusercontent.com/lisshernandez/DMTest/main/Reliability"
- 			targetNamespace="https://raw.githubusercontent.com/lisshernandez/DMTest/main/Reliability">
+			xmlns:rel="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Reliability"
+ 			targetNamespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Reliability">
  <!-- Reliability -->
     <xs:complexType name="Reliability">
 		<xs:annotation>

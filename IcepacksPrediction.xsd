@@ -4,8 +4,8 @@
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
 			elementFormDefault="qualified"
-			xmlns:ice="https://raw.githubusercontent.com/lisshernandez/DMTest/main/IcepacksPrediction"
- 			targetNamespace="https://raw.githubusercontent.com/lisshernandez/DMTest/main/IcepacksPrediction">
+			xmlns:ice="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/IcepacksPrediction"
+ 			targetNamespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/IcepacksPrediction">
 	<!-- IcepacksPrediction -->
 	<xs:complexType name="IcepacksPrediction">
 		<xs:annotation>

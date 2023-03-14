@@ -4,8 +4,8 @@
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
             elementFormDefault="qualified"
-            xmlns:anom="https://raw.githubusercontent.com/lisshernandez/DMTest/main/AnomalyPrediction"
- 			      targetNamespace="https://raw.githubusercontent.com/lisshernandez/DMTest/main/AnomalyPrediction">
+            xmlns:anom="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AnomalyPrediction"
+ 			      targetNamespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AnomalyPrediction">
     <!-- AnomalyPrediction -->
     <xs:complexType name="AnomalyPrediction">
       <xs:annotation>

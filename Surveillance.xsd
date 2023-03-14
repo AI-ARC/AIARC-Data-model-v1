@@ -4,8 +4,8 @@
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
             elementFormDefault="qualified" 
-            xmlns:sur="https://raw.githubusercontent.com/lisshernandez/DMTest/main/Surveillance" 
-            targetNamespace="https://raw.githubusercontent.com/lisshernandez/DMTest/main/Surveillance">
+            xmlns:sur="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Surveillance" 
+            targetNamespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Surveillance">
   <!-- Surveillance -->
     <xs:complexType name="Surveillance">
       <xs:annotation>

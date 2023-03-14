@@ -4,8 +4,8 @@
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
             elementFormDefault="qualified"
-            xmlns:ves="https://raw.githubusercontent.com/lisshernandez/DMTest/main/VesselPrediction"
- 			      targetNamespace="https://raw.githubusercontent.com/lisshernandez/DMTest/main/VesselPrediction">
+            xmlns:ves="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/VesselPrediction"
+ 			      targetNamespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/VesselPrediction">
   <!-- VesselPrediction -->
     <xs:complexType name="VesselPrediction">
       <xs:annotation>
