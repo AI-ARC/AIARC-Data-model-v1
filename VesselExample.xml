@@ -1,0 +1,25 @@
+<Vessel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="https://cise.jrc.ec.europa.eu/datamodel/last/xsd/Vessel.xsd">
+    <Identifier>
+        <GeneratedBy>
+            <LegalName>UTU</LegalName>
+        </GeneratedBy>
+        <GeneratedIn>2022-10-27T11:53:00Z</GeneratedIn>
+        <UUID>f23c565f-f4bb-4188-9760-e1923603c29a</UUID>
+    </Identifier>
+    <!-- document about the vessel prediction attached -->
+    <DocumentRel>
+        <Document xsi:type="doc:VesselDocument">
+            <Content><!-- AI-ARC data (Base 64 binary document) -->
+                PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gDQogIEdlbmVyYXRlZCBieSBVbml2ZXJzaWRhZCBQb2xpdGVjbmljYSBkZSBNYWRyaWQgKFVQTSkgLSAyMDIzLiANCi0tPg0KPGR0bTpkYXRhbW9kZWwgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSINCiAgICAgICAgICAgICAgIHhzaTpzY2hlbWFMb2NhdGlvbj0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FJLUFSQy9BSUFSQy1EYXRhLW1vZGVsLXYxL21haW4vRGF0YU1vZGVsIC4vQUlBUkNfZGF0YW1vZGVsLnhzZCINCiAgICAgICAgICAgICAgIHhtbG5zOmR0bT0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FJLUFSQy9BSUFSQy1EYXRhLW1vZGVsLXYxL21haW4vRGF0YU1vZGVsIg0KICAgICAgICAgICAgICAgeG1sbnM6YW5vbT0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FJLUFSQy9BSUFSQy1EYXRhLW1vZGVsLXYxL21haW4vQW5vbWFseVByZWRpY3Rpb24iDQogICAgICAgICAgICAgICB4bWxuczppY2U9Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9BSS1BUkMvQUlBUkMtRGF0YS1tb2RlbC12MS9tYWluL0ljZXBhY2tzUHJlZGljdGlvbiINCiAgICAgICAgICAgICAgIHhtbG5zOnZlcz0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FJLUFSQy9BSUFSQy1EYXRhLW1vZGVsLXYxL21haW4vVmVzc2VsUHJlZGljdGlvbiINCiAgICAgICAgICAgICAgIHhtbG5zOnN1cj0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FJLUFSQy9BSUFSQy1EYXRhLW1vZGVsLXYxL21haW4vU3VydmVpbGxhbmNlIg0KICAgICAgICAgICAgICAgeG1sbnM6cmVsPSJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vQUktQVJDL0FJQVJDLURhdGEtbW9kZWwtdjEvbWFpbi9SZWxpYWJpbGl0eSINCiAgICAgICAgICAgICAgID4NCiAgICA8VmVzc2VsUHJlZGljdGlvbkNsYXNzPg0KICAgIDx2ZXM6UHJlZGljdGlvbkFjY3VyYWN5Pjk5LjI8L3ZlczpQcmVkaWN0aW9uQWNjdXJhY3k+DQogICAgPHZlczpFeHBsYW5hdGlvbk1lc3NhZ2U+RXhhbXBsZSBvZiBhIHZlc3NlbCBwcmVkaWN0aW9uIGV4cGxhbmF0aW9uIG1lc3NhZ2UuPC92ZXM6RXhwbGFuYXRpb25NZXNzYWdlPg0KICAgIDx2ZXM6UHJlZGljdGlvblRpbWU+MjAyMy0wNi0wNVQxMjoxNToxMFo8L3ZlczpQcmVkaWN0aW9uVGltZT4NCiAgPC9WZXNzZWxQcmVkaWN0aW9uQ2xhc3M+DQo8L2R0bTpkYXRhbW9kZWw+
+            </Content>
+        </Document>
+    </DocumentRel>
+    <correlatedWith>
+        <GeneratedBy>
+            <LegalName>Fraunhofer IOSB</LegalName>
+        </GeneratedBy>
+        <GeneratedIn>2022-10-27T11:43:51Z</GeneratedIn>
+        <UUID>359a429c-e87d-5196-bc24-7b8dc05c4758</UUID>
+    </correlatedWith>
+</Vessel>

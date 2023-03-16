@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sharing suspected vessel -->
+<Risk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://cise.jrc.ec.europa.eu/datamodel/last/xsd/Risk.xsd" xsi:schemaLocation="http://www.cise.eu/datamodel/v1/entity/vessel/ https://cise.jrc.ec.europa.eu/datamodel/last/xsd/entity/vessel/Vessel.xsd" xmlns:vessel="http://www.cise.eu/datamodel/v1/entity/vessel/">
+    <Identifier>
+        <GeneratedBy>
+            <LegalName>FhG-EMI-RLS</LegalName>
+        </GeneratedBy>
+        <GeneratedIn>2023-10-27T11:53:00Z</GeneratedIn>
+        <UUID>7ada42a5-59fd-42fa-9781-7ed6693a5968</UUID>
+    </Identifier>
+    <DocumentRel>
+        <Document xsi:type="doc:RiskDocument">
+            <Content><!-- AI-ARC Reliability data (ReliabilityScore, ReliabilityMessage and ReliabilityMetrics classes) (Base 64 binary document) -->
+                PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gDQogIEdlbmVyYXRlZCBieSBVbml2ZXJzaWRhZCBQb2xpdGVjbmljYSBkZSBNYWRyaWQgKFVQTSkgLSAyMDIzLiANCi0tPg0KPGR0bTpkYXRhbW9kZWwgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSINCiAgICAgICAgICAgICAgIHhzaTpzY2hlbWFMb2NhdGlvbj0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FJLUFSQy9BSUFSQy1EYXRhLW1vZGVsLXYxL21haW4vRGF0YU1vZGVsIC4vQUlBUkNfZGF0YW1vZGVsLnhzZCINCiAgICAgICAgICAgICAgIHhtbG5zOmR0bT0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FJLUFSQy9BSUFSQy1EYXRhLW1vZGVsLXYxL21haW4vRGF0YU1vZGVsIg0KICAgICAgICAgICAgICAgeG1sbnM6YW5vbT0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FJLUFSQy9BSUFSQy1EYXRhLW1vZGVsLXYxL21haW4vQW5vbWFseVByZWRpY3Rpb24iDQogICAgICAgICAgICAgICB4bWxuczppY2U9Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9BSS1BUkMvQUlBUkMtRGF0YS1tb2RlbC12MS9tYWluL0ljZXBhY2tzUHJlZGljdGlvbiINCiAgICAgICAgICAgICAgIHhtbG5zOnZlcz0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FJLUFSQy9BSUFSQy1EYXRhLW1vZGVsLXYxL21haW4vVmVzc2VsUHJlZGljdGlvbiINCiAgICAgICAgICAgICAgIHhtbG5zOnN1cj0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FJLUFSQy9BSUFSQy1EYXRhLW1vZGVsLXYxL21haW4vU3VydmVpbGxhbmNlIg0KICAgICAgICAgICAgICAgeG1sbnM6cmVsPSJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vQUktQVJDL0FJQVJDLURhdGEtbW9kZWwtdjEvbWFpbi9SZWxpYWJpbGl0eSINCiAgICAgICAgICAgICAgID4NCiAgPFJlbGlhYmlsaXR5Q2xhc3M+DQogICAgPHJlbDpSZWxpYWJpbGl0eVNjb3JlPjk3Ljk8L3JlbDpSZWxpYWJpbGl0eVNjb3JlPg0KICAgIDxyZWw6UmVsaWFiaWxpdHlNZXNzYWdlPkV4YW1wbGUgb2YgcmVsaWFiaWxpdHkgbWVzc2FnZS48L3JlbDpSZWxpYWJpbGl0eU1lc3NhZ2U+DQogICAgPHJlbDpSZWxpYWJpbGl0eU1ldHJpY3M+DQogICAgICAgIDxyZWw6U190cmFpbj4wLjYzPC9yZWw6U190cmFpbj4NCiAgICAgICAgPHJlbDpTX2Rpc3RhbmNlPjAuNzM8L3JlbDpTX2Rpc3RhbmNlPg0KICAgICAgICA8cmVsOlNfeEFJPjAuOTI8L3JlbDpTX3hBST4NCiAgICAgICAgPHJlbDpPdGhlcj5RVzV2ZEdobGNpQnRaWFJ5YVdNZ2RtRnNkV1VnWTJGdUlHSmxJR2x1WTJ4MVpHVmtMZz09PC9yZWw6T3RoZXI+DQogICAgICAgIDxyZWw6c190cmFpbkRlc2NyaXB0aW9uPkRlc2NyaXB0aW9uIG1lc3NhZ2Ugb2Ygc190cmFpbiBtZXRyaWMuPC9yZWw6c190cmFpbkRlc2NyaXB0aW9uPg0KICAgICAgICA8cmVsOnNfZGlzdGFuY2VEZXNjcmlwdGlvbj5EZXNjcmlwdGlvbiBtZXNzYWdlIG9mIHNfZGlzdGFuY2UgbWV0cmljLjwvcmVsOnNfZGlzdGFuY2VEZXNjcmlwdGlvbj4NCiAgICAgICAgPHJlbDpzX3hBSURlc2NyaXB0aW9uPkRlc2NyaXB0aW9uIG1lc3NhZ2Ugb2Ygc194QUkgbWV0cmljLjwvcmVsOnNfeEFJRGVzY3JpcHRpb24+DQogICAgICAgIDxyZWw6T3RoZXJEZXNjcmlwdGlvbj5EZXNjcmlwdGlvbiBtZXNzYWdlIG9mIG90aGVyIG1ldHJpYy48L3JlbDpPdGhlckRlc2NyaXB0aW9uPg0KICAgIDwvcmVsOlJlbGlhYmlsaXR5TWV0cmljcz4NCiAgPC9SZWxpYWJpbGl0eUNsYXNzPg0KPC9kdG06ZGF0YW1vZGVsPg==
+            </Content>
+        </Document>
+    </DocumentRel>
+    <correlatedWith>
+        <GeneratedBy>
+            <LegalName>UoP-Risk</LegalName>
+        </GeneratedBy>
+        <GeneratedIn>2023-10-27T11:53:00Z</GeneratedIn>
+        <UUID>c227c7f9-c4a0-42bf-a624-f60e1d968068</UUID>
+    </correlatedWith>
+</Risk>
