@@ -10,6 +10,7 @@
                xmlns:ves="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/VesselPrediction"
                xmlns:sur="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Surveillance"
                xmlns:rel="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Reliability"
+               xmlns:aiaves="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AIArcVessel"
                >
   <AnomalyPredictionClass>
     <anom:AIArcAnomaly>Intent</anom:AIArcAnomaly>
@@ -75,4 +76,8 @@
         <rel:OtherDescription>Description message of other metric.</rel:OtherDescription>
     </rel:ReliabilityMetrics>
   </ReliabilityClass>
+
+  <AIArcVesselClass>
+    <aiaves:AIArcVesselType>92</aiaves:AIArcVesselType>
+  </AIArcVesselClass>
 </dtm:datamodel>
