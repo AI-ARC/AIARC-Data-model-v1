@@ -18,9 +18,11 @@
     <!-- AIArcVesselDataType -->
     <xs:simpleType name="AIArcVesselDataType">
       <xs:annotation>
-        <xs:documentation>This enumeration is defined by AI-ARC project and presents the different types of Vessel. This list is limited to general type of vessel. It could be detailed in further modeling activities.</xs:documentation>
+        <xs:documentation>This enumeration is defined with the same number used by the AIS messages for vessel types.</xs:documentation>
       </xs:annotation>
-      <xs:restriction base="xs:string">
+      <xs:restriction base="xs:integer">
+        <xs:minInclusive value="0"/>
+        <xs:maxInclusive value="99"/>
         <xs:enumeration value="0" >
           <xs:annotation>
             <xs:documentation xml:lang="en">0. DESCRIPTION: Not avaible (default)</xs:documentation>
