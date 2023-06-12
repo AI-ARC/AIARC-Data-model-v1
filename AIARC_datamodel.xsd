@@ -10,6 +10,7 @@
             xmlns:sur="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Surveillance"
             xmlns:rel="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Reliability"
             xmlns:aiaves="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AIArcVessel"
+            xmlns:icedetection="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/IcepacksDetection"
             >
             <xs:import namespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AnomalyPrediction" schemaLocation="AnomalyPrediction.xsd" />
             <xs:import namespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/IcepacksPrediction" schemaLocation="IcepacksPrediction.xsd" />
@@ -17,6 +18,7 @@
             <xs:import namespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Surveillance" schemaLocation="Surveillance.xsd" />
             <xs:import namespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Reliability" schemaLocation="Reliability.xsd" />         
             <xs:import namespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AIArcVessel" schemaLocation="AIArcVessel.xsd" />
+            <xs:import namespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/IcepacksDetection" schemaLocation="IcepacksDetection.xsd" />
   <xs:element name="datamodel" type="dtm:AIARC_DataModel">
     <xs:annotation>
       <xs:documentation source="version">1.0</xs:documentation>
@@ -55,6 +57,11 @@
       <xs:element name="AIArcVesselClass" type="aiaves:AIArcVessel" minOccurs="0">
         <xs:annotation>
           <xs:documentation source="description">AIArcVessel class defined in AI-ARC project.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="IcepacksDetectionClass" type="icedetection:IcepacksDetection" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation source="description">Icepacks Prediction class defined in AI-ARC project.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>

@@ -11,6 +11,7 @@
                xmlns:sur="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Surveillance"
                xmlns:rel="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Reliability"
                xmlns:aiaves="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AIArcVessel"
+               xmlns:icedetection="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/IcepacksDetection"
                >
   <AnomalyPredictionClass>
     <anom:AIArcAnomaly>Intent</anom:AIArcAnomaly>
@@ -80,4 +81,9 @@
   <AIArcVesselClass>
     <aiaves:AIArcVesselType>92</aiaves:AIArcVesselType>
   </AIArcVesselClass>
+
+  <IcepacksDetectionClass>
+    <icedetection:IceClass>IceBerg</icedetection:IceClass>
+    <icedetection:DetectionTime>2023-06-12T10:30:10Z</icedetection:DetectionTime>
+  </IcepacksDetectionClass>
 </dtm:datamodel>
