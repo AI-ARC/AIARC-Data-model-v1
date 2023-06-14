@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LocationDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:noNamespaceSchemaLocation="http://www.cise.eu/datamodel/v1/entity/LocationDocument/" 
+    xmlns:location="http://www.cise.eu/datamodel/v1/entity/location/">
+  <Identifier>
+    <GeneratedBy>
+      <LegalName>TPZF-Detection</LegalName>
+    </GeneratedBy>
+    <GeneratedIn>2023-06-05T12:14:00Z</GeneratedIn>
+    <UUID>78f6fd6323834cf5abb241dbe71b2e0f</UUID>
+  </Identifier>
+  <LocationRel>
+    <Location>
+      <Geometry>
+        <WKT>POLYGON ((57.7214373571031558 -20.0370136027002275, 57.7218206316151239 -20.0371927614945733, 57.7219207847855884 -20.0381863235946653, 57.7213433946751593 -20.0373754297448592, 57.7214373571031558 -20.0370136027002275))</WKT>
+      </Geometry>
+    </Location>
+  </LocationRel>
+  <Content>PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxkdG06ZGF0YW1vZGVsIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIA0KICAgIHhzaTpzY2hlbWFMb2NhdGlvbj0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FJLUFSQy9BSUFSQy1EYXRhLW1vZGVsLXYxL21haW4vRGF0YU1vZGVsIC4vQUlBUkNfZGF0YW1vZGVsLnhzZCIgDQogICAgeG1sbnM6ZHRtPSJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vQUktQVJDL0FJQVJDLURhdGEtbW9kZWwtdjEvbWFpbi9EYXRhTW9kZWwiIA0KICAgIHhtbG5zOmFub209Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9BSS1BUkMvQUlBUkMtRGF0YS1tb2RlbC12MS9tYWluL0Fub21hbHlQcmVkaWN0aW9uIiANCiAgICB4bWxuczppY2U9Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9BSS1BUkMvQUlBUkMtRGF0YS1tb2RlbC12MS9tYWluL0ljZXBhY2tzUHJlZGljdGlvbiIgDQogICAgeG1sbnM6dmVzPSJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vQUktQVJDL0FJQVJDLURhdGEtbW9kZWwtdjEvbWFpbi9WZXNzZWxQcmVkaWN0aW9uIiANCiAgICB4bWxuczpzdXI9Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9BSS1BUkMvQUlBUkMtRGF0YS1tb2RlbC12MS9tYWluL1N1cnZlaWxsYW5jZSIgDQogICAgeG1sbnM6cmVsPSJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vQUktQVJDL0FJQVJDLURhdGEtbW9kZWwtdjEvbWFpbi9SZWxpYWJpbGl0eSINCiAgICB4bWxuczphaWF2ZXM9Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9BSS1BUkMvQUlBUkMtRGF0YS1tb2RlbC12MS9tYWluL0FJQXJjVmVzc2VsIg0KICAgIHhtbG5zOmljZWRldGVjdGlvbj0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FJLUFSQy9BSUFSQy1EYXRhLW1vZGVsLXYxL21haW4vSWNlcGFja3NEZXRlY3Rpb24iPg0KICAgIDxJY2VwYWNrc0RldGVjdGlvbj4NCiAgICAgICAgPGljZWRldGVjdGlvbjpJY2VDbGFzcz5JY2VCZXJnPC9pY2VkZXRlY3Rpb246SWNlQ2xhc3M+DQogICAgICAgIDxpY2VkZXRlY3Rpb246RGV0ZWN0aW9uVGltZT4yMDIwLTA4LTExVDA2OjI0OjUxWjwvaWNlZGV0ZWN0aW9uOkRldGVjdGlvblRpbWU+DQogICAgPC9JY2VwYWNrc0RldGVjdGlvbj4NCjwvZHRtOmRhdGFtb2RlbD4=</Content>
+</LocationDocument>
+
+
+<!-- The content field decoded-->
+<?xml version='1.0' encoding='UTF-8'?>
+<dtm:datamodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/DataModel ./AIARC_datamodel.xsd" 
+    xmlns:dtm="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/DataModel" 
+    xmlns:anom="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AnomalyPrediction" 
+    xmlns:ice="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/IcepacksPrediction" 
+    xmlns:ves="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/VesselPrediction" 
+    xmlns:sur="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Surveillance" 
+    xmlns:rel="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Reliability"
+    xmlns:aiaves="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AIArcVessel"
+    xmlns:icedetection="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/IcepacksDetection">
+    <IcepacksDetection>
+        <icedetection:IceClass>IceBerg</icedetection:IceClass>
+        <icedetection:DetectionTime>2020-08-11T06:24:51Z</icedetection:DetectionTime>
+    </IcepacksDetection>
+</dtm:datamodel>

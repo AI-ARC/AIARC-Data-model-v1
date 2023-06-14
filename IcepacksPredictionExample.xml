@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LocationDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:noNamespaceSchemaLocation="http://www.cise.eu/datamodel/v1/entity/LocationDocument/" 
+    xmlns:location="http://www.cise.eu/datamodel/v1/entity/location/">
+  <Identifier>
+    <GeneratedBy>
+      <LegalName>UTU-IcepackProvider</LegalName>
+      <OrganizationClassification>Other</OrganizationClassification>
+      <OrganizationPurpose>NonProfitable</OrganizationPurpose>
+      <OrganizationRole>Other</OrganizationRole>
+    </GeneratedBy>
+    <GeneratedIn>2023-05-29T10:10:07Z</GeneratedIn>
+    <UUID>685f828305995a41b5332265c6bfa8d7</UUID>
+  </Identifier>
+  <LocationRel>
+    <Location>
+      <Geometry>
+        <WKT>POLYGON ((19.33385870296514 61.89184487494565, 18.81592349640318 61.62932513556689, 22.42798685400622 64.98454731811324, 19.8459932366271 63.24802698155785, 22.98725200623769 64.52864499250144, 20.06558143564753 62.66169754998072, 19.77359929706495 61.08737129114099, 21.07492020238161 63.94381852617132, 20.89261522077129 61.26060023350234, 20.77502422617942 63.01568486327508, 19.33385870296514 61.89184487494565))</WKT>
+      </Geometry>
+    </Location>
+  </LocationRel>
+  <Content>PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPGR0bTpkYXRhbW9kZWwgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vQUktQVJDL0FJQVJDLURhdGEtbW9kZWwtdjEvbWFpbi9EYXRhTW9kZWwgLi9BSUFSQ19kYXRhbW9kZWwueHNkIiB4bWxuczpkdG09Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9BSS1BUkMvQUlBUkMtRGF0YS1tb2RlbC12MS9tYWluL0RhdGFNb2RlbCIgeG1sbnM6YW5vbT0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FJLUFSQy9BSUFSQy1EYXRhLW1vZGVsLXYxL21haW4vQW5vbWFseVByZWRpY3Rpb24iIHhtbG5zOmljZT0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FJLUFSQy9BSUFSQy1EYXRhLW1vZGVsLXYxL21haW4vSWNlcGFja3NQcmVkaWN0aW9uIiB4bWxuczp2ZXM9Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9BSS1BUkMvQUlBUkMtRGF0YS1tb2RlbC12MS9tYWluL1Zlc3NlbFByZWRpY3Rpb24iIHhtbG5zOnN1cj0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FJLUFSQy9BSUFSQy1EYXRhLW1vZGVsLXYxL21haW4vU3VydmVpbGxhbmNlIiB4bWxuczpyZWw9Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9BSS1BUkMvQUlBUkMtRGF0YS1tb2RlbC12MS9tYWluL1JlbGlhYmlsaXR5Ij4KICAgICAgICAgIDxJY2VwYWNrc1ByZWRpY3Rpb24+CiAgICAgICAgICAgIDxpY2U6SWNlVGhpY2tuZXNzPjk1PC9pY2U6SWNlVGhpY2tuZXNzPgogICAgICAgICAgICA8aWNlOkljZVRoaWNrbmVzc0NvbmZpZGVuY2U+MzEuMjgzNDY3NTM5NzQ3MTc8L2ljZTpJY2VUaGlja25lc3NDb25maWRlbmNlPgogICAgICAgICAgICA8aWNlOkljZUNsYXNzPkljZUNsYXNzSUI8L2ljZTpJY2VDbGFzcz4KICAgICAgICAgICAgPGljZTpPY2N1cmVuY2VDb25maWRlbmNlPjU3LjU1NTY0NTMyNTQ0NjQ1PC9pY2U6T2NjdXJlbmNlQ29uZmlkZW5jZT4KICAgICAgICAgICAgPGljZTpQcmVkaWN0aW9uVGltZT4yMDIzLTA1LTI5VDEwOjEwOjA3WjwvaWNlOlByZWRpY3Rpb25UaW1lPgogICAgICAgICAgPC9JY2VwYWNrc1ByZWRpY3Rpb24+CiAgICAgICAgPC9kdG06ZGF0YW1vZGVsPg==</Content>
+</LocationDocument>
+
+
+<!-- The content field decoded-->
+<?xml version='1.0' encoding='UTF-8'?>
+<dtm:datamodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/DataModel ./AIARC_datamodel.xsd" 
+    xmlns:dtm="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/DataModel" 
+    xmlns:anom="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AnomalyPrediction" 
+    xmlns:ice="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/IcepacksPrediction" 
+    xmlns:ves="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/VesselPrediction" 
+    xmlns:sur="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Surveillance" 
+    xmlns:rel="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Reliability">
+    <IcepacksPrediction>
+        <ice:IceThickness>95</ice:IceThickness>
+        <ice:IceThicknessConfidence>31.28346753974717</ice:IceThicknessConfidence>
+        <ice:IceClass>IceClassIB</ice:IceClass>
+        <ice:OccurenceConfidence>57.55564532544645</ice:OccurenceConfidence>
+        <ice:PredictionTime>2023-05-29T10:10:07Z</ice:PredictionTime>
+    </IcepacksPrediction>
+</dtm:datamodel>
