@@ -18,7 +18,6 @@
         <xs:element name="PriorityLevel" type="anom:PriorityLevelType" minOccurs="0"/>
         <xs:element name="Confidence" type="anom:ConfidenceType" minOccurs="0"/>
         <xs:element name="SourceReliabilityLevel" type="anom:SourceReliabilityLevelType" minOccurs="0"/>
-        <xs:element name="PossibleIntents" type="anom:PossibleIntentsType" minOccurs="0"/>
       </xs:sequence>
     </xs:complexType>
     <!-- AIArcAnomalyType -->
@@ -55,11 +54,6 @@
             <xs:enumeration value="ShipHistoryAnomaly">
           <xs:annotation>
             <xs:documentation xml:lang="en">ship history anomaly. DESCRIPTION: Ship history anomaly</xs:documentation>
-          </xs:annotation>
-        </xs:enumeration>
-            <xs:enumeration value="Intent">
-          <xs:annotation>
-            <xs:documentation xml:lang="en">intent. DESCRIPTION: Intent</xs:documentation>
           </xs:annotation>
         </xs:enumeration>	
 	    </xs:restriction>
@@ -174,59 +168,6 @@
         <xs:enumeration value="F-ReliabilityCannotBeJudged">
           <xs:annotation>
             <xs:documentation xml:lang="en">F-reliability cannot be judged. DESCRIPTION: F-Reliability cannot be judged</xs:documentation>
-          </xs:annotation>
-        </xs:enumeration>	
-      </xs:restriction>
-    </xs:simpleType>
-  <!-- PossibleIntentsType -->
-    <xs:complexType name="PossibleIntentsType">
-	    <xs:annotation>
-		    <xs:documentation>List of IntentRecord.</xs:documentation>
-	    </xs:annotation>
-	    <xs:sequence>
-        <xs:element name="IntentRecord" type="anom:IntentRecordType" maxOccurs="unbounded"/>
-      </xs:sequence>
-    </xs:complexType>
-  <!-- IntentRecordType -->
-  <xs:complexType name="IntentRecordType">
-      <xs:annotation>
-        <xs:documentation>The IntentRecordType is a new datatype defined by AI-ARC project for the Anomaly Prediction service.</xs:documentation>
-      </xs:annotation>
-      <xs:sequence>
-        <xs:element name="IntentType" type="anom:IntentDataType" minOccurs="0"/>
-        <xs:element name="IntentProbability" type="xs:double" minOccurs="0"/>
-        <xs:element name="IntentExplanation" type="xs:string" minOccurs="0"/>
-      </xs:sequence>
-    </xs:complexType>
-  <!-- IntentDataType -->
-    <xs:simpleType name="IntentDataType">
-	    <xs:annotation>
-		    <xs:documentation>...</xs:documentation>
-	    </xs:annotation>
-      <xs:restriction base="xs:string">
-        <xs:enumeration value="Smuggling">
-          <xs:annotation>
-            <xs:documentation xml:lang="en">smuggling. DESCRIPTION: Smuggling</xs:documentation>
-          </xs:annotation>
-        </xs:enumeration>
-        <xs:enumeration value="FishingCrime">
-          <xs:annotation>
-            <xs:documentation xml:lang="en">fishing crime. DESCRIPTION: Fishing crime</xs:documentation>
-          </xs:annotation>
-        </xs:enumeration>
-        <xs:enumeration value="EnvironmentalCrime">
-          <xs:annotation>
-            <xs:documentation xml:lang="en">environmental crime. DESCRIPTION: Environmental crime</xs:documentation>
-          </xs:annotation>
-        </xs:enumeration>
-        <xs:enumeration value="InfrastructureThreat">
-          <xs:annotation>
-            <xs:documentation xml:lang="en">infrastructure threat. DESCRIPTION: Infrastructure threat</xs:documentation>
-          </xs:annotation>
-        </xs:enumeration>
-        <xs:enumeration value="NonMalicious">
-          <xs:annotation>
-            <xs:documentation xml:lang="en">non malicious. DESCRIPTION: Non malicious</xs:documentation>
           </xs:annotation>
         </xs:enumeration>	
       </xs:restriction>

@@ -11,6 +11,8 @@
             xmlns:rel="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Reliability"
             xmlns:aiaves="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AIArcVessel"
             xmlns:icedetection="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/IcepacksDetection"
+            xmlns:anomintention="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AnomalyIntention"
+            xmlns:anomindication="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AnomalyIndication"
             >
             <xs:import namespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AnomalyPrediction" schemaLocation="AnomalyPrediction.xsd" />
             <xs:import namespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/IcepacksPrediction" schemaLocation="IcepacksPrediction.xsd" />
@@ -19,6 +21,8 @@
             <xs:import namespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/Reliability" schemaLocation="Reliability.xsd" />         
             <xs:import namespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AIArcVessel" schemaLocation="AIArcVessel.xsd" />
             <xs:import namespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/IcepacksDetection" schemaLocation="IcepacksDetection.xsd" />
+            <xs:import namespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AnomalyIntention" schemaLocation="AnomalyIntention.xsd" />
+            <xs:import namespace="https://raw.githubusercontent.com/AI-ARC/AIARC-Data-model-v1/main/AnomalyIndication" schemaLocation="AnomalyIndication.xsd" />
   <xs:element name="datamodel" type="dtm:AIARC_DataModel">
     <xs:annotation>
       <xs:documentation source="version">1.0</xs:documentation>
@@ -62,6 +66,16 @@
       <xs:element name="IcepacksDetectionClass" type="icedetection:IcepacksDetection" minOccurs="0">
         <xs:annotation>
           <xs:documentation source="description">Icepacks Prediction class defined in AI-ARC project.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="AnomalyIntentionClass" type="anomintention:AnomalyIntention" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation source="description">Anomaly Intention class defined in AI-ARC project.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="AnomalyIndicationClass" type="anomindication:AnomalyIndication" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation source="description">Anomaly Indication class defined in AI-ARC project.</xs:documentation>
         </xs:annotation>
       </xs:element>
     </xs:sequence>
