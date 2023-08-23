@@ -41,21 +41,26 @@
             <xs:documentation xml:lang="en">unusual path anomaly. DESCRIPTION: Unusual path anomaly</xs:documentation>
           </xs:annotation>
         </xs:enumeration>
-            <xs:enumeration value="MeetingAnomaly">
+        <xs:enumeration value="MeetingAnomaly">
           <xs:annotation>
             <xs:documentation xml:lang="en">meeting anomaly. DESCRIPTION: Meeting anomaly</xs:documentation>
           </xs:annotation>
         </xs:enumeration>
-            <xs:enumeration value="DataInconsistencyAnomaly">
+        <xs:enumeration value="DataInconsistencyAnomaly">
           <xs:annotation>
             <xs:documentation xml:lang="en">data inconsistency anomaly. DESCRIPTION: Data inconsistency anomaly</xs:documentation>
           </xs:annotation>
         </xs:enumeration>
-            <xs:enumeration value="ShipHistoryAnomaly">
+        <xs:enumeration value="ShipHistoryAnomaly">
           <xs:annotation>
             <xs:documentation xml:lang="en">ship history anomaly. DESCRIPTION: Ship history anomaly</xs:documentation>
           </xs:annotation>
-        </xs:enumeration>	
+        </xs:enumeration>
+        <xs:enumeration value="UnclearWater">
+          <xs:annotation>
+            <xs:documentation xml:lang="en">water with something inside (e.g. oil spill, algal bloom, sediments, boats). DESCRIPTION: Water with something inside (e.g. oil spill, algal bloom, sediments, boats)</xs:documentation>
+          </xs:annotation>
+        </xs:enumeration>		
 	    </xs:restriction>
     </xs:simpleType>
     <!-- PriorityLevelType -->
