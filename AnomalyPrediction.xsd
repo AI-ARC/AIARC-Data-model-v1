@@ -60,6 +60,16 @@
           <xs:annotation>
             <xs:documentation xml:lang="en">water with something inside (e.g. oil spill, algal bloom, sediments, boats). DESCRIPTION: Water with something inside (e.g. oil spill, algal bloom, sediments, boats)</xs:documentation>
           </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="LowSpeed">
+          <xs:annotation>
+            <xs:documentation xml:lang="en">low speed. DESCRIPTION: Low speed</xs:documentation>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="HighSpeed">
+          <xs:annotation>
+            <xs:documentation xml:lang="en">high speed. DESCRIPTION: High speed</xs:documentation>
+          </xs:annotation>
         </xs:enumeration>		
 	    </xs:restriction>
     </xs:simpleType>
