@@ -12,8 +12,12 @@
 			<xs:documentation>This class allows the description of the meteorological oceanographic condition of a given Location.</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
-			<xs:element name="IceClass" type="icedetection:IceClassDataType" minOccurs="0" />
-			<xs:element name="DetectionTime" type="xs:dateTime" minOccurs="0" />
+			<xs:element name="IceClass" type="icedetection:IceClassDataType" minOccurs="0"/>
+			<xs:element name="DetectionTime" type="xs:dateTime" minOccurs="0"/>
+			<xs:element name="Image" type="xs:base64Binary" minOccurs="0"/>
+			<xs:element name="ImageMimeType" type="xs:string" minOccurs="0"/>
+			<xs:element name="ImageTitle" type="xs:string" minOccurs="0"/>
+			<xs:element name="ImageDescription" type="xs:string" minOccurs="0"/>
 		</xs:sequence>
 	</xs:complexType>
 	<!-- IceClassDataType -->
