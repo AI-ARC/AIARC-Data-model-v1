@@ -70,6 +70,11 @@
           <xs:annotation>
             <xs:documentation xml:lang="en">high speed. DESCRIPTION: High speed</xs:documentation>
           </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="NavigationalStatusChange:NotUnderCommand">
+          <xs:annotation>
+            <xs:documentation xml:lang="en">navigational status change: not under command. DESCRIPTION: Navigational status change: Not under command</xs:documentation>
+          </xs:annotation>
         </xs:enumeration>		
 	    </xs:restriction>
     </xs:simpleType>
